@@ -1,0 +1,14 @@
+services:
+  doc-video-automation:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: doc-video-automation-pipeline
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+    restart: unless-stopped

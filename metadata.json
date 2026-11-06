@@ -1,0 +1,6 @@
+{
+  "name": "DocVideo Automation & Deployment Pipeline",
+  "description": "Automated document-to-video pipeline engine and CI/CD deployment orchestrator with GitHub integration for markjosephcandy-bot/Doc_video_automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
